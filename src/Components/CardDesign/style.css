@@ -1,0 +1,21 @@
+.carddesign img {
+  width: 100%;
+  color: #891f85;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border: 1px solid orchid !important;
+  box-shadow: 0 0 15px rgb(216 98 212 / 53%);
+}
+.cH {
+  background-color: #331f32;
+  padding: 1px !important;
+  font-weight: 700;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 16px;
+  color: #fbd725;
+}
+.carddesign {
+  margin-left: 20px;
+}

@@ -1,0 +1,20 @@
+.biddetail {
+  text-align: center;
+  background: #1e1f25;
+  box-shadow: 0 2px 15px hsl(0deg 0% 100% / 18%);
+  padding: 20px;
+}
+.biditem h1 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  margin: 30px !important;
+  text-align: center;
+  color: #fbd725;
+  text-shadow: 0 0 7px #fbd725;
+}
+.biditem h5 {
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  line-height: 1.2;
+}

@@ -1,0 +1,39 @@
+.mintdetail {
+  padding: 50px;
+}
+.mintheader {
+  padding-bottom: 6rem;
+}
+.mintheader h1 {
+  color: rgba(251, 215, 37);
+}
+.mintheader p {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.mintimg img {
+  width: 430px;
+  height: 400px;
+}
+.sloth {
+  box-shadow: 2px 2px 4px orchid;
+  text-align: center;
+  opacity: 1;
+  text-shadow: 1px 2px 15px hsl(0deg 0% 100% / 60%);
+  color: hsla(0, 0%, 100%, 0.9) !important;
+  border: 3px solid orchid;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+.sloth input {
+  width: 50%;
+  height: 8vh;
+}
+.sloth input,
+h1,
+p,
+#CtW {
+  margin: 20px 0px 15px 0px;
+}
