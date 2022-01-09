@@ -1,0 +1,23 @@
+.stats {
+  background: #1e1f25;
+  box-shadow: 0 2px 15px hsl(0deg 0% 100% / 18%);
+}
+.stats-header {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+.stats-header h1 {
+  color: rgba(251, 215, 37);
+}
+.stats-header p {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
