@@ -1,6 +1,11 @@
 #cards-img img {
   width: 100%;
   height: 60vh;
+  max-width: 300px;
+  color: #891f85;
+  border-radius: 0.25rem !important;
+  border: 1px solid orchid !important;
+  box-shadow: 0 0 15px rgb(216 98 212 / 53%);
 }
 .card-img {
   padding: 10px;

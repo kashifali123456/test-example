@@ -9,18 +9,24 @@ import Stats from "../../Components/Stats";
 import JoinComponent from "../../Components/JoinComponent";
 import TeamComponent from "../../Components/TeamComponent";
 import Question from "../../Components/Questions";
+import Footer from "../../Components/Footer";
 const Home = () => {
   return (
     <>
-      <Header />
-      <Cards />
+      <Container maxWidth="xl">
+        <Header />
+        <Cards />
+      </Container>
       <BidDetail />
-      <MintItem />
-      <Card2 />
+      <Container maxWidth="xl">
+        <MintItem />
+        <Card2 />
+      </Container>
       <Stats />
       <JoinComponent />
       <TeamComponent />
       <Question />
+      <Footer />
     </>
   );
 };

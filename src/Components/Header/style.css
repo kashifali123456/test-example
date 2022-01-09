@@ -2,11 +2,22 @@
   color: #fff;
 }
 .header h1 {
-  font-size: 65px;
-  padding-top: 100px;
+  padding-top: 200px;
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 3px 4px #891f85;
 }
 .header h4 {
-  font-size: 18px;
-  padding-top: 36px;
-  color: yellow;
+  padding-top: 30px;
+  color: #fbd725;
+  margin: 10px 0 0;
+  font-size: 22px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  text-shadow: 0 0 7px #fbd725;
 }

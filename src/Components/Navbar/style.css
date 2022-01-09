@@ -4,6 +4,7 @@
   color: #fff;
   text-align: center;
 }
+
 .navbar {
   background: linear-gradient(
       111.31deg,
@@ -11,32 +12,67 @@
       rgba(31, 7, 82, 0) 94.81%
     ),
     #41153f;
+  width: 100%;
+  opacity: 0.9;
+  padding: 5px 0 5px;
+  height: 70px;
   align-items: center;
-  padding-top: 15px;
-  /* position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0; */
+  right: 0;
+  box-shadow: 0 2px 15px #891f85;
+  transition: all 0.5s;
+  z-index: 997;
 }
 .navimg {
-  width: 12%;
+  width: 50px;
+  padding: 2px;
+  margin: 2px;
   height: 40px;
-  margin: 1rem;
+}
+.navbarimg h2 {
+  font-size: 24px;
+  font-weight: 800;
+  text-shadow: 0 0 7px orchid;
 }
 .navbarimg span {
+  display: block;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 4px;
   font-size: 12px;
-  color: rgb(162, 166, 167);
 }
+
 .navbar-link #link {
   color: #fff;
+  text-shadow: 0 0 7px rgb(218 112 214 / 50%);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+  margin-left: 5px;
 }
+
 #CtW {
+  border-radius: 20px;
   background-color: transparent !important;
-  border: 1px solid rgb(241, 233, 233);
-  border-radius: 50px;
-  color: #891f85;
-  box-shadow: 0 2px 15px #891f85;
-  text-decoration: none !important;
+  border: 1px solid orchid;
+  color: orchid;
+  font-size: 12px;
+  text-transform: capitalize;
+  text-shadow: 0 0 7px rgb(218 112 214 / 50%) !important;
+  box-shadow: 0 0 15px rgb(218 112 214 / 30%) !important;
+  margin-left: 30px;
+  letter-spacing: 1px;
+  margin-top: 3px;
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  font-weight: 500;
 }
+/* .ctw :hover {
+  background-color: orchid;
+  color: #fff;
+} */
