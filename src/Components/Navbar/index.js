@@ -20,14 +20,7 @@ const Navbar = () => {
   const match = useMediaQuery("(max-width: 960px)");
   return (
     <Grid container className="navbar">
-      <Grid
-        item
-        container
-        className="navbarimg"
-        justify="center"
-        xs={12}
-        md={3}
-      >
+      <Grid item container className="navbarimg" justify="center" xs={6} md={3}>
         <img className="navimg" src={logo} alt="" />
         <h2>
           SOLTHZ <br /> <span>Aka Datusing</span>{" "}
@@ -40,7 +33,7 @@ const Navbar = () => {
         alignItems="center"
         item
         container
-        xs={12}
+        xs={5}
         md={7}
       >
         {match ? (

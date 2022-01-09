@@ -5,17 +5,17 @@ import Data from "../../Data";
 import CardDesgin from "../CardDesign";
 const Card2 = () => {
   return (
-    <Grid container justify="center" className="card2">
-      <Grid item container direction="row" justifyContent="center">
-        {Data.map((items) => {
-          return (
-            <Grid item md={2}>
-              <CardDesgin items={items} />
-            </Grid>
-          );
-        })}
-      </Grid>
+    <Grid container direction="row" justifyContent="center" className="card2">
+      {/* <Grid item xs={12} md={2} container direction="row" justifyContent="center"> */}
+      {Data.map((items) => {
+        return (
+          <Grid item xs={12} md={2}>
+            <CardDesgin items={items} />
+          </Grid>
+        );
+      })}
     </Grid>
+    // </Grid>
   );
 };
 

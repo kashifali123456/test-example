@@ -1,13 +1,18 @@
 import React from "react";
 import { Button } from "@material-ui/core";
-import "./style.css";
 import Drawer from "@material-ui/core/Drawer";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import { ListItem, ListItemText } from "@material-ui/core";
+import "./style.css";
 const DrawersButton = ({ open, handleDrawerClose, setOpen }) => {
   return (
     <>
-      <Drawer open={open} anchor="right">
+      <Drawer
+        open={open}
+        anchor="right"
+        backgroundColor="black"
+        className="drawer"
+      >
         <ListItem button onClick={handleDrawerClose}>
           <ArrowForwardIosIcon />
         </ListItem>
