@@ -1,0 +1,17 @@
+.question-header {
+  margin-top: 50px;
+}
+.question-header h1 {
+  font-size: 32px !important;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(251, 215, 37, var(--tw-text-opacity));
+  text-transform: uppercase;
+  padding-bottom: 0;
+}
+.question-header p {
+  font-size: 1.25rem !important;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  padding-bottom: 2rem;
+}

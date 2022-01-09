@@ -2,7 +2,7 @@ import { Grid } from "@material-ui/core";
 import React from "react";
 import "./style.css";
 const CardDesgin = (props) => {
-  const { img, title } = props.items;
+  const { id, img, title } = props.items;
   return (
     <Grid container>
       <Grid item xs={12}>

@@ -6,6 +6,9 @@ import BidDetail from "../../Components/BidDetail";
 import MintItem from "../../Components/MintItem";
 import Card2 from "../../Components/Card2";
 import Stats from "../../Components/Stats";
+import JoinComponent from "../../Components/JoinComponent";
+import TeamComponent from "../../Components/TeamComponent";
+import Question from "../../Components/Questions";
 const Home = () => {
   return (
     <>
@@ -15,6 +18,9 @@ const Home = () => {
       <MintItem />
       <Card2 />
       <Stats />
+      <JoinComponent />
+      <TeamComponent />
+      <Question />
     </>
   );
 };
