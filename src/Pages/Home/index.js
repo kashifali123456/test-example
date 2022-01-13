@@ -10,6 +10,7 @@ import JoinComponent from "../../Components/JoinComponent";
 import TeamComponent from "../../Components/TeamComponent";
 import Question from "../../Components/Questions";
 import Footer from "../../Components/Footer";
+import DetailText from "../../Components/detailText";
 const Home = () => {
   return (
     <>
@@ -23,6 +24,7 @@ const Home = () => {
         <Card2 />
       </Container>
       <Stats />
+      <DetailText />
       <JoinComponent />
       <TeamComponent />
       <Question />

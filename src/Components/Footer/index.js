@@ -11,7 +11,7 @@ const Footer = () => {
           container
           justify="start"
           direction="column"
-          xs={12}
+          xs={6}
           md={6}
           className="footer-header"
         >
@@ -22,7 +22,7 @@ const Footer = () => {
           item
           container
           justifyContent="flex-end"
-          xs={12}
+          xs={6}
           md={6}
           className="footer-icon"
         >

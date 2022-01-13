@@ -16,8 +16,13 @@
   color: rgba(251, 215, 37);
 }
 .stats-header p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+}
+@media (max-width: 960px) {
+  .stats-header p {
+    padding: 0px 75px;
+  }
 }

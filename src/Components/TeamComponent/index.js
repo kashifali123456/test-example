@@ -1,6 +1,6 @@
 import { Grid } from "@material-ui/core";
 import React, { useState } from "react";
-import Data from "../../Data";
+import { Data1 } from "../../Data";
 import CardDesgin from "../CardDesign";
 import "./style.css";
 const TeamComponent = () => {
@@ -24,16 +24,31 @@ const TeamComponent = () => {
           SLOTHz to the next level.
         </p>
       </Grid>
-      <Grid item container direction="row" justifyContent="center">
-        {Data.map((items) => {
+      <Grid
+        item
+        container
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
+        className="teamcard"
+      >
+        {Data1.map((items) => {
           return (
-            <Grid item md={2}>
+            <Grid item xs={12} md={3} className="card2">
               <CardDesgin items={items} />
             </Grid>
           );
         })}
       </Grid>
-      <Grid item xs={12} className="team-lower">
+      <Grid
+        item
+        container
+        xs={12}
+        className="team-header"
+        justify="center"
+        alignItems="center"
+        direction="column"
+      >
         <p>
           We need you! If you feel you can bring something to the table please
           send us a DM.

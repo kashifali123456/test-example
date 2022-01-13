@@ -14,4 +14,10 @@
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
   padding-bottom: 2rem;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  .question-header p {
+    padding: 0px 75px;
+  }
 }
